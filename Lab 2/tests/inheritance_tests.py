@@ -8,11 +8,11 @@ Date: 02/20/2025
 import pytest
 from inheritance_practice import Animal
 
-##########################################################
-# To run the test you must use the command:              #
-#   py -m pytest -v inheritance_test.py(check directory) #
-#   py -m pytest -v -m "method"_test inheritance_test.py #
-##########################################################
+###########################################################
+# To run the test you must use the command:               #
+#   py -m pytest -v inheritance_tests.py(check directory) #
+#   py -m pytest -v -m "method"_test inheritance_tests.py #
+###########################################################
 
     ##########################
     # Tests for eat() method #
