@@ -2,17 +2,17 @@
 Author: Kevin Avina-Gutierrez
 This is a test file for inheritance.py 
     It tests the Animal class and its methods
-Date: 02/20/2025
+Date: 02/22/2025
 """
 
 import pytest
 from inheritance_practice import Animal
 
-##########################################################
-# To run the test you must use the command:              #
-#   py -m pytest -v inheritance_test.py(check directory) #
-#   py -m pytest -v -m "method"_test inheritance_test.py #
-##########################################################
+###########################################################
+# To run the test you must use the command:               #
+#   py -m pytest -v inheritance_tests.py(check directory) #
+#   py -m pytest -v -m "method"_test inheritance_tests.py #
+###########################################################
 
     ##########################
     # Tests for eat() method #
@@ -70,13 +70,6 @@ def test_not_friendly():
     # End tests for is_friendly() method #
     ######################################
 
-    ##############################
-    # Tests for  method          #
-    ##############################
-
-#@pytest.mark.
-#def test_():
-    
     ##############################
     # Tests for  method          #
     ##############################
